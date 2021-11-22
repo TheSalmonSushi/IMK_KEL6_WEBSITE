@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-position: center;
+	background-size: cover;
+}
+.profile-pic-div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+.header{
+	min-height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 8%;
+	height: 90px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #6B958E;
+}
+.bd-placeholder-img {
+	padding-top: 42%;
+	width: 100%;
+	background-size:1700px;
+	background-position: center;
+	object-fit: center;
+}
+.tentang{
+	margin-right: 13%;
+	margin-left: -19%;
+}
+nav img{
+    top: 2%;
+    left: 92%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    overflow: hidden;
+}
+.toolbar img{
+	top: 2.8%;
+    left: 1%;
+	margin-left: 1.5%;
+    height: 50px;
+    width: 165px;
+}
+#photos {
+	width: 56%;
+	height: 9%;
+}
+.wrapper{
+	display: flex;
+}
+.left{
+	width: 70%;
+	padding: 50px;
+}
+.right{
+	width: 30%;
+	padding: 50px;
+}
+.toolbar{
+	flex:  1;
+	text-align: right;
+}
+.toolbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 1px 40px 1px 1px;
+	margin-left: 20px;
+	margin-top: 17px;
+	position: relative;
+}
+.toolbar ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 18px;
+}
+.toolbar ul li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #d30000;
+	display: block;
+	margin: auto;
+	transition: 0.3s;
+}
+.toolbar ul li a:hover::after{
+	width: 100%;
+}
+.Keterangan p{
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 15px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 15%;
+	margin-top: 2%;
+	text-align: justify;
+}
+.Keterangan h1{
+	margin-left: 3.5%;
+	margin-right: 1%;
+	margin-top: 3%;
+	margin-bottom: -2%;
+}
+.Keterangan2 p{
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 15px;
+	margin-left: -500%;
+	margin-right: 390%;
+	margin-top: -2%;
+	margin-bottom: 15%;
+	text-align: justify;
+}
+.Keterangan2 h1{
+	margin-left: -438%;
+	margin-right: 360%;
+	margin-top: 6%;
+}
+.htmlcss{
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: -10%;
+	display: flex;
+}
+.htmlcss1{
+	margin-top: 5%;
+	margin-left: 195%;
+	margin-right: 15%;
+	display: flex;
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.footer p{
+	text-align: center;
+}
+.icons .fab{
+	size: 100;
+	color: #312156;
+	margin: 0 10px;
+	cursor: pointer;
+	padding: 5px 0;
+}
