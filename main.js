@@ -1,74 +1,33 @@
- var screen=document.querySelector('#screen');
-    var btn=document.querySelectorAll('.btn');
+var screen=document.querySelector('#screen');
+var btn=document.querySelectorAll('.btn');
 
-    for(item of btn) {
-        item.addEventListener('click',(e)=>{
-            btntext=e.target.innerText;
+function hitung() {
+    screen3.value=(screen1.value / Math.pow((screen2.value/100),2));
+    const value = Math.round(screen3.value * 10) / 10;
+    screen3.value = value;
 
-            if(btntext =='×')
-            {
-                btntext= '*';
-            }
-
-            if(btntext=='÷')
-            {
-                btntext='/';
-            }
-            screen.value+=btntext;
-        });
+    let greeting;
+    if (value <= 17.0) {
+      greeting = "Kurus (Kekurangan berat badan tingkat tinggi)";
+    } 
+    else if (value >= 17.1 && value <= 18.4) {
+      greeting = "Kurus (kekurangan berat badan tingkat rendah)";
     }
-
-    function sin() {
-        screen.value=Math.sin(screen.value);
+    else if (value >= 18.5 && value <= 25.0) {
+      greeting = "Normal";
     }
-
-    function cos() {
-        screen.value=Math.cos(screen.value);
+    else if (value >= 25.1 && value <= 27.0) {
+    greeting = "Gemuk (kelebihan berat badan tingakt rendah)";
     }
-
-    function tan() {
-        screen.value=Math.tan(screen.value);
+    else {
+      greeting = "Gemuk (Kelebihan berat badan tingkat tinggi)";
     }
+            document.getElementById("hasil").innerHTML = greeting;
+}
 
-    function pow() {
-        screen.value=Math.pow(screen.value,2);
-    }
 
-    function sqrt() {
-        screen.value=Math.sqrt(screen.value,2);
-    }
-
-    function log() {
-        screen.value=Math.log(screen.value);
-    }
-
-    function percent() {
-        const newValueNum = screen.value / 100;
-        screen.value=newValueNum;
-    }
-
-    function pi() {
-        screen.value= 3.14159265359;
-    }
-
-    function e() {
-        screen.value=2.71828182846;
-    }
-
-    function fact() {
-        var i, num, f;
-        f=1
-        num=screen.value;
-        for(i=1; i<=num; i++)
-        {
-            f=f*i;
-        }
-
-        i=i-1;
-
-        screen.value=f;
-    }
-
-    function backspc() {
-        screen.value=screen.value.substr(0,screen.value.length-1);
-    }
+function reset() {
+    screen1.value=screen1.value.substr(0,screen1.value.length-1000);
+    screen2.value=screen2.value.substr(0,screen2.value.length-1000);
+    screen3.value=screen3.value.substr(0,screen3.value.length-1000);
+}
