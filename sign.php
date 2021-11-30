@@ -5,6 +5,9 @@ include 'test.php';
 error_reporting(0);
  
 session_start();
+if (isset($_SESSION['nama'])) {
+  header("Location: asu.php");
+}
 $email = $_POST['email'];
 $password = $_POST['password'];
 
@@ -19,10 +22,11 @@ if (isset($_POST['submit'])) {
     $num_rows = sqlsrv_num_rows($result);
     
     if ($num_rows >0) {
+        $row = sqlsrv_fetch_array( $result, SQLSRV_FETCH_ASSOC);
+        $_SESSION['nama'] = $row['nama'];
         echo "<script>alert('bisa masuk')</script>";
         header("Location: asu.php");
-        $row = sqlsrv_fetch_assoc($result);
-        $_SESSION['nama'] = $row['nama'];
+        
         
       
     } else {
