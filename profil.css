@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+  }
+
+:root{
+	--primary: rgb(255, 255, 255, 0.618);
+	--secondary: rgba(255, 255, 255, 0.618);
+}
+body{
+	background: linear-gradient(135deg, var(--primary), var(--secondary)), url(images/background2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.profile-pic-div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+.header{
+	min-height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 2% 8%;
+	height: 90px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #6B958E;
+}
+
+.bd-placeholder-img {
+	padding-top: 42%;
+	width: 100%;
+	background-size:1700px;
+	background-position: center;
+	object-fit: center;
+}
+
+.tentang{
+	margin-right: 13%;
+	margin-left: -19%;
+}
+
+.toolbar{
+	flex:  1;
+	text-align: right;
+}
+.toolbar ul{
+	margin-right: -88px;
+}
+.toolbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 1px 5px 1px 1px;
+	margin-left: 20px;
+	margin-top: 17px;
+	position: relative;
+}
+
+.toolbar ul li a {
+	margin-left: 2px;
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+  }
+  
+.toolbar ul li :hover {
+	background: rgba(0, 0, 0, 0.61);
+	color: white;
+	font-weight: 700;
+	font-size: 24;
+}
+
+.toolbar ul li a.active {
+	color: white;
+	font-weight: 700;
+	font-size: 24;
+}
+
+.card{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 3%;
+}
+
+.wrapper{
+	display: flex;
+}
+
+.left{
+	width: 70%;
+	margin-left: 20%;
+	margin-top: -13%;
+}
+
+.right{
+	width: 30%;
+	padding: 60px;
+	margin-top: -1%;
+	margin-left: 45%;
+}
+
+.profile-pic-div2{
+    height: 290px;
+    width: 290px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+	margin-left: -25.3%;
+}
+
+#photo{
+    height: 100%;
+    width: 150%;
+	position: relative;
+	margin-left: -25%;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 40px;
+	font-weight: 600;
+}
+.footer p{
+	text-align: center;
+}
+
+.fotoProfil{
+	height: 60px;
+    width: 60px;
+	margin-top: 3.5%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#profil{
+    height: 80px;
+    width: 115px;
+	position: absolute;
+	margin-left: -50%;
+	margin-top: -15%;
+}
+
+header .logo {
+	margin-left: 1%;
+	color: black;
+	opacity: 60%;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  }
