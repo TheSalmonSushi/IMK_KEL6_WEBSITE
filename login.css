@@ -1,165 +1,169 @@
 
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-  }
-  html{
-    width: 100%;
-    height: 100%;
-    background-image: url("image 17.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    justify-content: flex-end;
-   
-    
-  }
-  body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: 100%;
   background-image: url("image 17.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   justify-content: flex-end;
-  }
-  li{
-    list-style: none;
-  }
-  .header{
-      background-position: center;
-      background-size: cover;
-      position: relative;
-    background-color: #6B958E;
-    height: 90px;
-    width: 100%;
-    display: flex;
-    padding: 2% 8%;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  .header ul li{
-  margin-left: 2px;
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
+ 
   
-  }
-  
-  .nama{
-    font-size: 34px;
-    margin: 20px;
-    float: left;
-    font-weight: bolder;
-  }
-  .menu-list{
-    flex: 1;
-    text-align: right;
-  }
-  .menu-list ul{
-  margin-right: -88px;
-  margin-bottom: 16px;
-  }
-  .menu-list li{
+}
+body{
+background-image: url("image 17.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+justify-content: flex-end;
+}
+li{
   list-style: none;
-  display: inline-block;
-  padding: 1px 5px 1px 1px;
-  margin-left: 20px;
-  margin-top: 17px;
-  position: relative;
-  font-size: 16px;
+}
+.header{
+	background-position: center;
+	background-size: cover;
+	position: relative;
+  background-color: #6B958E;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  padding: 2% 8%;
+  justify-content: space-between;
+  align-items: center;
   
+}
+.header ul li{
+margin-left: 2px;
+text-decoration: none;
+padding: 6px 15px;
+color: #fff;
+border-radius: 20px;
+
+}
+
+.nama{
+  font-size: 34px;
+  margin: 20px;
+  float: left;
+  font-weight: bolder;
+}
+.menu-list{
+  flex: 1;
+  text-align: right;
+}
+.menu-list ul{
+margin-right: -88px;
+margin-bottom: 16px;
+}
+.menu-list li{
+list-style: none;
+display: inline-block;
+padding: 1px 5px 1px 1px;
+margin-left: 20px;
+margin-top: 17px;
+position: relative;
+font-size: 16px;
+
+}
+.menu-list ul li:hover{
+  background: rgba(0, 0, 0, 0.61);
+  color: white;
+  font-weight: 700;
+  
+
+}
+.menu-list li a{
+margin-left: 2px;
+text-decoration: none;
+padding: 6px 15px;
+color: #fff;
+border-radius: 20px;
   }
-  .menu-list ul li:hover{
-    background: rgba(0, 0, 0, 0.61);
-    color: white;
-    font-weight: 700;
-    
+
+.menu-list li :active{
+  color: white;
+  font-weight: 700;
+  font-size: 24;
+      }
   
+  /* Full-width inputs */
+  input[type=text]  {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #c4c4c4e5;
+    box-sizing: border-box;
+    
+    font-weight: 600;
+    border-radius: 20px;
   }
-  .menu-list li a{
-  margin-left: 2px;
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
-    }
+  input[type=password]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #c4c4c4e5;
+    box-sizing: border-box;
+    
+    font-weight: 600;
+    border-radius: 20px;
+  }
   
-  .menu-list li :active{
+  /* Set a style for all buttons */
+  button {
+    background-color: #6B958E;
     color: white;
-    font-weight: 700;
-    font-size: 24;
-        }
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
     
-    /* Full-width inputs */
-    input[type=text]  {
-      width: 50%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #c4c4c4e5;
-      box-sizing: border-box;
-      
-      font-weight: 600;
-      border-radius: 20px;
-    }
-    input[type=password]{
-      width: 50%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #c4c4c4e5;
-      box-sizing: border-box;
-      
-      font-weight: 600;
-      border-radius: 20px;
-    }
+    display: inline-block;
+    text-decoration: none;
     
-    /* Set a style for all buttons */
-    button {
-      background-color: #6B958E;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      width: 50%;
-      align-items: center;
-      border-radius: 30px;
-      font-weight: bold;
-      
-      display: inline-block;
-      text-decoration: none;
-      
-    }
-    
-    /* Add a hover effect for buttons */
-    button:hover {
-      opacity: 0.8;
-    }
-    
-    
-    
-    /* Center the avatar image inside this container */
-    
-    
-    /* Avatar image */
-    
-    
-    /* Add padding to containers */
-    .container {
-      padding: 16px;
-      
-    }
-    
-    
-    
-    
-   
-    
-    
-   
+  }
+.daftar button{
+  margin:auto;
+  display:block;
+ 
+}
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
   
   
+  
+  /* Center the avatar image inside this container */
+  
+  
+  /* Avatar image */
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    
+  }
+  
+  
+  
+  
+ 
+  
+  
+ 
+
