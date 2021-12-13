@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
         $row = sqlsrv_fetch_array( $result, SQLSRV_FETCH_ASSOC);
         $_SESSION['nama'] = $row['nama'];
         echo "<script>alert('bisa masuk')</script>";
-        header("Location: asu.php");
+        header("Location: index.html");
         
         
       
