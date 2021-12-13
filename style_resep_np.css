@@ -10,56 +10,76 @@
 body {
   min-height: 100vh;
   background-image: url(assets/bg1.png);
-  background-size: cover;
+  background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99999;
-  background-color: #6b958e;
+.header{
+	min-height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 2% 8%;
+	height: 90px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #6B958E;
 }
 
 header .logo {
-  color: black;
-  opacity: 60%;
-  font-weight: 900;
-  text-decoration: none;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	margin-left: 1%;
+	color: black;
+	opacity: 60%;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.toolbar{
+	flex:  1;
+	text-align: right;
+}
+.toolbar ul{
+	margin-right: -88px;
+}
+.toolbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 1px 5px 1px 1px;
+	margin-left: 20px;
+	margin-top: 1px;
+	position: relative;
 }
 
-header nav a {
-  margin-left: 10px;
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
+.toolbar ul li a {
+	margin-left: 2px;
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+  }
+  
+.toolbar ul li :hover {
+	background: rgba(0, 0, 0, 0.61);
+	color: white;
+	font-weight: 700;
+	font-size: 24;
 }
 
-header nav :hover {
-  background: rgba(0, 0, 0, 0.61);
-  color: white;
-  font-weight: 700;
-  font-size: 24;
-}
-header nav a.active {
-  color: white;
-  font-weight: 700;
-  font-size: 24;
+.toolbar ul li a.active {
+	color: white;
+	font-weight: 700;
+	font-size: 24;
 }
 
 section {
@@ -92,6 +112,7 @@ section img#bg1 {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-top: -7%;
 }
 
 .box-container .box {
@@ -181,4 +202,29 @@ footer .cont ul li a i {
   font-weight: 600;
   font-size: 25px;
   padding-bottom: 20px;
+}
+
+.fotoProfil{
+	height: 60px;
+    width: 60px;
+	margin-top: 3.5%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#profil{
+    height: 80px;
+    width: 115px;
+	position: absolute;
+	margin-left: -48%;
+	margin-top: -15%;
+}
+
+#logo{
+	margin-left: 8%;
+	margin-top: 1px;
 }
