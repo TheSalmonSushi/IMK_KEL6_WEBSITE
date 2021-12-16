@@ -127,16 +127,17 @@ border-radius: 20px;
     cursor: pointer;
     width: 50%;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: bold;
     
     display: inline-block;
     text-decoration: none;
     
   }
-.daftar button{
+.daftar{
   margin:auto;
   display:block;
+  text-align: center;
  
 }
   

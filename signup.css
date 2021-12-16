@@ -98,7 +98,7 @@ border-radius: 20px;
     display: inline-block;
     border: 1px solid #c4c4c4e5;
     box-sizing: border-box;
-    font-family: "fa5-proxima-nova";
+    
     font-weight: 600;
     border-radius: 20px;
   }
@@ -109,7 +109,7 @@ border-radius: 20px;
     display: inline-block;
     border: 1px solid #c4c4c4e5;
     box-sizing: border-box;
-    font-family: "fa5-proxima-nova";
+    
     font-weight: 600;
     border-radius: 20px;
   }
@@ -120,7 +120,7 @@ border-radius: 20px;
     display: inline-block;
     border: 1px solid #c4c4c4e5;
     box-sizing: border-box;
-    font-family: "fa5-proxima-nova";
+    
     font-weight: 600;
     border-radius: 20px;
   }
@@ -133,9 +133,14 @@ button{
     cursor: pointer;
     width: 50%;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 44;
+}
+.batal button{
+  margin:auto;
+  display:block;
+  background-color: #db4646;
 }
 div.rapi{
     display: block;
