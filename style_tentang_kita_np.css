@@ -30,6 +30,26 @@ header {
   background-color: #6b958e;
 }
 
+header .img {
+  height: 60px;
+  width: 60px;
+  margin-top: 3.5%;
+  margin-left: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+header #profil {
+  height: 80px;
+  width: 115px;
+  position: absolute;
+  margin-left: -48%;
+  margin-top: -15%;
+}
+
 header .logo {
   color: black;
   opacity: 60%;
@@ -38,6 +58,7 @@ header .logo {
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-left: 70px;
 }
 
 header nav {
