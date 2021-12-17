@@ -60,6 +60,7 @@ border-radius: 20px;
 .nama{
   font-size: 34px;
   margin: 20px;
+  margin-left: -5%;
   float: left;
   font-weight: bolder;
 }
