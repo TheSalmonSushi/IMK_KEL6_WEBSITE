@@ -270,5 +270,11 @@ input[type="text"] {
 	border-radius: 5%;
 	height: 45px;
 	margin-left: 45%;
+	margin-bottom: 0.5%;
+}
+
+#hasil {
+	font-size: 35px;
+	margin-left: 45%;
 }
 
