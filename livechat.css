@@ -25,6 +25,7 @@ body{
 li{
     list-style: none;
 }
+
 .header{
     background-color: #6B958E;
     height: 90px;
@@ -43,12 +44,27 @@ li{
 	border-radius: 20px;
   
   }
-  
+  #profil{
+    height: 60px;
+    width: 60px;
+	margin-top: 2.1%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    
+}
   .nama{
-    font-size: 34px;
-    margin: 20px;
-    float: left;
-    font-weight: bolder;
+    margin-left: 1%;
+	color: black;
+	opacity: 60%;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
   }
   .menu-list{
     flex: 1;
@@ -64,7 +80,8 @@ li{
 	margin-left: 20px;
 	margin-top: 17px;
 	position: relative;
-  font-weight: 700;
+  font-size: 16px;
+  
   }
   .menu-list ul li:hover{
     background: rgba(0, 0, 0, 0.61);
