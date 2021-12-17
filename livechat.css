@@ -103,6 +103,8 @@ font-weight: bold;
   position: relative;
   align-content: center;
   overflow: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .table-history{
   margin:5px;
@@ -170,6 +172,12 @@ align-items: center;
   float: left;
   color: #999;
 }
+input{
+  padding: 12px 20px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -184,6 +192,8 @@ align-items: center;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  
+  
 }
 
 .button span {
@@ -277,6 +287,7 @@ align-items: center;
 	margin-top: 25%;
 	margin-bottom: 5%;
 	margin-left: -24.5%;
+ 
 }
 
 .footer-heading .social-links a{
@@ -290,6 +301,7 @@ align-items: center;
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
+  padding-top: 12px;
 }
 
 .footer-heading .social-links a:hover{
