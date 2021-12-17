@@ -1,18 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
   background-image: url(assets/bg1.png);
   background-position: center;
   background-size: cover;
-  position: relative;
   background-attachment: fixed;
 }
 
@@ -162,69 +159,26 @@ section img#bg1 {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99999;
-  background-color: #6b958e;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12rem;
+  text-align: center;
+  padding: 30px 0;
 }
 
-footer .cont {
-  z-index: 9;
-  flex: 1 1 10rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  margin-top: 10px;
-  margin-left: 60px;
+footer h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 500;
 }
 
-footer .cont ul {
-  list-style: none;
+footer p {
+  text-align: center;
 }
 
-footer .cont ul li {
-  text-decoration: none;
-}
-
-footer .cont ul li a {
-  text-decoration: none;
-  padding-top: 30px;
-  font-size: 20px;
-}
-
-footer .cont ul li a h1 {
-  background-image: url(assets/bg-text.jfif);
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-position: top;
-  background-size: 10%;
-  color: transparent;
-}
-
-footer .cont .tk li a h1 {
-  color: #fff;
-}
-footer .cont ul li a h0 {
-  color: #000;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 50px;
-  padding-left: 45px;
-}
-
-footer .cont ul li a img {
-  padding-top: 5px;
-}
-
-footer .cont ul li a i {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  font-size: 25px;
-  padding-bottom: 20px;
+footer .icons .fab {
+  size: 100;
+  color: #312156;
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 15px 0;
 }
