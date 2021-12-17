@@ -98,7 +98,7 @@ nav{
 }
 .footer h4{
 	margin-bottom: 25px;
-	margin-top: 40px;
+	margin-top: 20px;
 	font-weight: 600;
 }
 .footer p{
@@ -108,7 +108,7 @@ nav{
 .fotoProfil{
 	height: 60px;
     width: 60px;
-	margin-top: 3.5%;
+	margin-top: 4%;
 	margin-left: -2%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -121,8 +121,99 @@ nav{
     height: 80px;
     width: 115px;
 	position: absolute;
-	margin-left: -50%;
+	margin-left: -49%;
 	margin-top: -15%;
+}
+
+#logo{
+	margin-left: 8%;
+	margin-top: 2.5px;
+}
+
+.footer-container {
+	background-color: #6B958E;
+	padding-bottom: 4rem;
+	box-sizing: border-box;
+	border-top-left-radius: 85px;
+	border-top-right-radius: 85px;
+}
+
+.footer {
+	width: 80%;
+	height: 41.5vh;
+	background-color: #6B958E;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-heading {
+	margin-top: 0.6%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+.footer-saran-form h2{
+	margin-bottom: 40%;
+}
+
+.footer-heading h2{
+	margin-bottom: 2%;
+}
+
+.footer-heading a{
+	margin-top: -1%;
+	margin-bottom: 3%;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: left;
+}
+
+.footer-heading i{
+	margin-top: -1%;
+}
+
+.footer-heading a:hover {
+	color: #2d3d3d;
+	transition: 0.3s ease-out;
+}
+
+#footer-saran{
+	width: 1000px;
+	height: 100px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	margin-bottom: 1%;
+	margin-top: -0.5%;
+}
+.footer-heading .social-links{
+	margin-top: 25%;
+	margin-bottom: 5%;
+	margin-left: -24.5%;
+}
+
+.footer-heading .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-heading .social-links a:hover{
+	color: #2d3d3d;
+	background-color: #ffffff;
 }
 
 header .logo {
@@ -160,7 +251,7 @@ input[type="text"] {
 }
 
 .tentang {
-	margin-top: 5%;
+	margin-top: 6%;
 	margin-bottom: -5%;
 	font-size: 20px;
 	margin-left: -1%;
@@ -171,7 +262,7 @@ input[type="text"] {
 	width: 580px;
 	height: 650px;
 	position: relative;
-	margin-bottom: -43%;
+	margin-bottom: -42.5%;
 }
 
 .btns button {
@@ -180,3 +271,4 @@ input[type="text"] {
 	height: 45px;
 	margin-left: 45%;
 }
+

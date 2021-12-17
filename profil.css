@@ -11,6 +11,7 @@
 	--primary: rgb(255, 255, 255, 0.618);
 	--secondary: rgba(255, 255, 255, 0.618);
 }
+
 body{
 	background: linear-gradient(135deg, var(--primary), var(--secondary)), url(images/background2.jpg);
 	background-position: center;
@@ -108,6 +109,7 @@ nav{
 
 .wrapper{
 	display: flex;
+	margin-top: 1%;
 }
 
 .left{
@@ -124,57 +126,24 @@ nav{
 }
 
 .profile-pic-div2{
-    height: 290px;
+    height: 289px;
     width: 290px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid grey;
-	margin-left: -25.3%;
+	margin-left: -33.3%;
+	transform: scale(1.25);
 }
 
 #photo{
-    height: 100%;
-    width: 150%;
+    height: 111%;
+    width: 160%;
 	position: relative;
-	margin-left: -25%;
-}
-
-.footer{
-	width: 100%;
-	text-align: center;
-	padding: 30px 0;
-}
-.footer h4{
-	margin-bottom: 25px;
-	margin-top: 40px;
-	font-weight: 600;
-}
-.footer p{
-	text-align: center;
-}
-
-.fotoProfil{
-	height: 60px;
-    width: 60px;
-	margin-top: 3.5%;
-	margin-left: -2%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid black;
-}
-
-#profil{
-    height: 80px;
-    width: 115px;
-	position: absolute;
-	margin-left: -50%;
-	margin-top: -15%;
+	margin-left: -29%;
 }
 
 header .logo {
@@ -187,3 +156,114 @@ header .logo {
 	text-transform: uppercase;
 	letter-spacing: 2px;
   }
+
+  .fotoProfil{
+	height: 60px;
+    width: 60px;
+	margin-top: 4%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#profil{
+    height: 80px;
+    width: 115px;
+	position: absolute;
+	margin-left: -49%;
+	margin-top: -15%;
+}
+
+#logo{
+	margin-left: 8%;
+	margin-top: 2.5px;
+}
+
+.footer-container {
+	background-color: #6B958E;
+	padding-bottom: 4rem;
+	box-sizing: border-box;
+	border-top-left-radius: 85px;
+	border-top-right-radius: 85px;
+}
+
+.footer {
+	width: 80%;
+	height: 41.5vh;
+	background-color: #6B958E;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-heading {
+	margin-top: 0.6%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+.footer-saran-form h2{
+	margin-bottom: 40%;
+}
+
+.footer-heading h2{
+	margin-bottom: 2%;
+}
+
+.footer-heading a{
+	margin-top: -1%;
+	margin-bottom: 3%;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: left;
+}
+
+.footer-heading i{
+	margin-top: -1%;
+}
+
+.footer-heading a:hover {
+	color: #2d3d3d;
+	transition: 0.3s ease-out;
+}
+
+#footer-saran{
+	width: 1000px;
+	height: 100px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	margin-bottom: 1%;
+	margin-top: -0.5%;
+}
+.footer-heading .social-links{
+	margin-top: 25%;
+	margin-bottom: 5%;
+	margin-left: -24.5%;
+}
+
+.footer-heading .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-heading .social-links a:hover{
+	color: #2d3d3d;
+	background-color: #ffffff;
+}

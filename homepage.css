@@ -1,11 +1,19 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-}
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+  }
+
 body {
 	background-position: center;
 	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
 }
 .profile-pic-div{
     height: 200px;
@@ -98,48 +106,51 @@ header .logo {
 
 .Keterangan p{
 	color: #000000;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 22px;
 	padding: 15px;
 	margin-left: 1%;
-	margin-right: 10%;
+	margin-right: 17%;
 	margin-bottom: 15%;
 	margin-top: 2%;
 	text-align: justify;
 }
 .Keterangan h1{
-	margin-left: 3.5%;
+	margin-left: 2.2%;
 	margin-right: 1%;
-	margin-top: 3%;
+	margin-top: 4%;
 	margin-bottom: -2%;
+	font-size: 50px;
 }
 .Keterangan2 p{
 	color: #000000;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 22px;
 	padding: 15px;
-	margin-left: -700%;
-	margin-right: 390%;
-	margin-top: -2%;
+	margin-left: -420%;
+	margin-right: 254%;
+	margin-top: -4%;
 	margin-bottom: 15%;
-	text-align: justify;
+	text-align:justify;
 }
 .Keterangan2 h1{
-	margin-left: -438%;
-	margin-right: 360%;
-	margin-top: 6%;
+	margin-left: -295%;
+	margin-top: 20%;
+	font-size: 50px;
 }
 .htmlcss{
 	margin-top: 5%;
-	margin-left: 5%;
+	margin-left: 8%;
 	display: flex;
 }
 .htmlcss1{
 	margin-top: 5%;
-	margin-left: 60%;
 	display: flex;
+}
+.kolom1{
+	margin-right: -20%;
 }
 .footer{
 	width: 100%;
@@ -154,17 +165,11 @@ header .logo {
 .footer p{
 	text-align: center;
 }
-.icons .fab{
-	size: 100;
-	color: #312156;
-	margin: 0 10px;
-	cursor: pointer;
-	padding: 5px 0;
-}
+
 .fotoProfil{
 	height: 60px;
     width: 60px;
-	margin-top: 3.5%;
+	margin-top: 4%;
 	margin-left: -2%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -183,5 +188,91 @@ header .logo {
 
 #logo{
 	margin-left: 8%;
-	margin-top: 1px;
+	margin-top: 2.5px;
+}
+
+.footer-container {
+	background-color: #6B958E;
+	padding-bottom: 4rem;
+	box-sizing: border-box;
+	border-top-left-radius: 85px;
+	border-top-right-radius: 85px;
+}
+
+.footer {
+	width: 80%;
+	height: 41.5vh;
+	background-color: #6B958E;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-heading {
+	margin-top: 0.6%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+.footer-saran-form h2{
+	margin-bottom: 40%;
+}
+
+.footer-heading h2{
+	margin-bottom: 2%;
+}
+
+.footer-heading a{
+	margin-top: -1%;
+	margin-bottom: 3%;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: left;
+}
+
+.footer-heading i{
+	margin-top: -1%;
+}
+
+.footer-heading a:hover {
+	color: #2d3d3d;
+	transition: 0.3s ease-out;
+}
+
+#footer-saran{
+	width: 1000px;
+	height: 100px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	margin-bottom: 1%;
+	margin-top: -0.5%;
+}
+.footer-heading .social-links{
+	margin-top: 25%;
+	margin-bottom: 5%;
+	margin-left: -24.5%;
+}
+
+.footer-heading .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-heading .social-links a:hover{
+	color: #2d3d3d;
+	background-color: #ffffff;
 }
