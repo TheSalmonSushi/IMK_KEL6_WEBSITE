@@ -39,12 +39,27 @@ li{
 	border-radius: 20px;
   margin-top: 0.5%;
   }
-  
+  #profil{
+    height: 60px;
+    width: 60px;
+	margin-top: 2.1%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    
+}
   .nama{
-    font-size: 34px;
-    margin: 20px;
-    float: left;
-    font-weight: bolder;
+  margin-left: 1%;
+	color: black;
+	opacity: 60%;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
   }
   .menu-list{
     flex: 1;

@@ -134,7 +134,7 @@ body {
       cursor: pointer;
       width: 50%;
       align-items: center;
-      border-radius: 30px;
+      border-radius: 10px;
       font-weight: bold;
       font-size: 44;
   }
@@ -149,6 +149,17 @@ body {
   }
   button:hover{
     opacity: 0.9;
+  }
+  .batal button{
+    margin:auto;
+    display:block;
+    background-color: #db4646;
+    width: 50%;
+    color: white;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 44;
+    height: 52px;
   }
 
   .footer{
