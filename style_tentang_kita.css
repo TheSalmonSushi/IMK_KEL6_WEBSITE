@@ -19,7 +19,7 @@ body img .backtext {
 
 header {
   position: absolute;
-  top: 0;
+  top: -12px;
   left: 0;
   width: 100%;
   padding: 30px 60px;
@@ -47,6 +47,7 @@ header nav {
 }
 
 header nav a {
+  margin-top: 10px;
   margin-left: 10px;
   text-decoration: none;
   padding: 6px 15px;
@@ -119,6 +120,26 @@ footer {
   gap: 12rem;
 }
 
+header .img {
+  height: 60px;
+  width: 60px;
+  margin-top: 4%;
+  margin-left: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+header #profil {
+  height: 80px;
+  width: 115px;
+  position: absolute;
+  margin-left: -48%;
+  margin-top: -15%;
+}
+
 footer .cont {
   z-index: 9;
   flex: 1 1 10rem;
@@ -173,23 +194,3 @@ footer .cont ul li a i {
   font-size: 25px;
   padding-bottom: 20px;
 }
-
-/* header .fotoProfil {
-  height: 60px;
-  width: 60px;
-  margin-top: 3.5%;
-  margin-left: -2%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  overflow: hidden;
-  border: 1px solid black;
-}
-
-header #profil {
-  height: 80px;
-  width: 115px;
-  position: absolute;
-  margin-left: -48%;
-  margin-top: -15%;
-} */

@@ -5,8 +5,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="login.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,600&display=swap" rel="stylesheet">
+  <script src="sign.js"></script>
+  <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
+</head>
   <body>
 
 <header>
@@ -21,7 +24,8 @@
             <li><a href="experience.html">Tentang Kita</a></li>
   </div>
 </header>
-<form action="test.php" method="post">
+<main>
+<form action="" id="form_id" method="post" name="myform">
 
 
   <div class="container1">
@@ -31,17 +35,32 @@
         <br>
             <div class="rapi" style="text-align: center;">
             <label for="uname"><b>Email</b></label><br>
-            <input type="text" placeholder="Masukkan Email" name="email"><br>
+            <input type="text" placeholder="Masukkan Email" name="email" id="email"><br>
             <label for="psw"><b>Kata Sandi</b></label><br>
-            <input type="password" placeholder="Masukkan Kata Sandi" name="password"><br>
-            <button type="submit" name="submit" >Masuk</button><br>
-            <button type="daftar"  onclick="location.href='daftar.php'" >Daftar Dulu</button><br>
+            <input type="password" placeholder="Masukkan Kata Sandi" name="password" id="password"><br>
+            <button type="submit" name="submit" onclick="return validate()" >Masuk</button>
+            
             </div>
         
   </div>
 
 </form>
-  
-  
+</main>
+<div class="daftar">
+            <button class="daftar" type="daftar"  onclick="location.href='daftar.html'" >Daftar Dulu</button><br>
+            <span>Note: Untuk demo, silahkan gunakan user = "admin123" dan password ="1234".</span>
+        </div>
+        <br>
+ <footer>
+      <h3>About Me</h3>
+      <p> Kalian bisa kontak atau menghubungi saya lewat beberapa media sosial dibawah ini</p>
+        <div class="icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-line"></i>
+          <i class="fab fa-github"></i>
+        </div>
+    </footer>       
 </body>
 </html>
