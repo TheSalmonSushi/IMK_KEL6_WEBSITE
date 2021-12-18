@@ -37,14 +37,23 @@ body{
 #resultcal{
     color: rgb(255, 0, 0);
     padding-top: 0.5rem;
+	font-size: 30px;
+	margin-top: -2%;
 }
 
 .left-data{
     background-color: #6B958E;
     opacity: 0.9;
     text-align: center;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
     height: 100%;
+	display: absolute;
+}
+
+.left-data button {
+	margin-bottom: 5%;
+	margin-top: -1%;
 }
 
 .pie-chart{
@@ -52,7 +61,6 @@ body{
     border-bottom-right-radius: 30px;
     text-align: center;
 }
-
 
 .header{
 	min-height: 80vh;
@@ -243,4 +251,9 @@ header .logo {
 .footer-heading .social-links a:hover{
 	color: #2d3d3d;
 	background-color: #ffffff;
+}
+
+.left-data input {
+	padding: 10px 10px;
+	margin-bottom: 3%;
 }

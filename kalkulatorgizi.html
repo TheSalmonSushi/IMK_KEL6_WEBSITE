@@ -30,33 +30,34 @@
       </header>
 
 
-    <div class="calories-cal" style="margin-bottom: 7%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="left-data">
-                    <h1>Kalkulator Gizi</h1>
+    <div class="calories-cal" style="margin-bottom: 7%; margin-top: -1%;">
+        <div class="container" style="display: absolute;">
+            <div class="row" style="display: absolute;">
+                <div class="col-md-6" style="display: absolute;">
+                    <div class="left-data" style="display: absolute;">
+                      <br></br>
+                        <h1 style="margin-top: -4%;">Kalkulator Gizi</h1>
+                        <p> Silahkan Masukkan Berat Badan, Tinggi Badan, dan Umur Anda!!</p>
                     <h5>Berat Badan (Kg)</h5>
                     <input type="text " id="we">
 
-                    <h5>Tinggi Badan (cm)</h5>
+                    <h5>Tinggi Badan (Cm)</h5>
                     <input type="text" id="hi">
 
                     <h5>Umur</h5>
                     <input type="text" name="" id="age">
-
-                    <p id="resultcal"></p>
-
+                    <p></p>
                     <button class="btn btn-primary" onclick="Calo()">Hitung Kalori!!</button>
                     <button class="btn btn-danger" onclick="location.href='kalkulatorgizi.html'">Hitung Ulang</button>
-                    <P> Silahkan Masukkan Berat Badan, Tinggi Badan, dan Umur Anda!!</P>
+                    <p id="resultcal"></p>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="pie-chart">
-                    <h1>Diagram</h1>
-                    <canvas id="myChart"></canvas>
+                  <br></br>
+                    <h1 style="margin-top: -4%;">Diagram</h1>
+                    <canvas id="myChart" style="transform: scale(0.96); margin-top: -20px; margin-left: -10px;"></canvas>
                 </div>
             </div>
         </div>
